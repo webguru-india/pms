@@ -78,6 +78,7 @@ class Client
         $this->timeout = $timeout;
         $this->debug = $debug;
         $this->headers = array_merge($this->headers, $headers);
+		echo 'asdasd';die;
     }
 
     /**
