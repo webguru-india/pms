@@ -105,6 +105,8 @@ class Client
     {
         $this->username = 'BOR';
         $this->password = 'BOR#2014';
+		
+		echo '1111';die;
     }
 
     /**
