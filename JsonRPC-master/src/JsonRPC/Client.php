@@ -141,6 +141,8 @@ class Client
         }
 
         return null;
+		
+		echo '4444';die;
     }
 
     /**
@@ -173,5 +175,7 @@ class Client
         curl_close($ch);
 
         return is_array($response) ? $response : array();
+		
+		echo '555';die;
     }
 }
